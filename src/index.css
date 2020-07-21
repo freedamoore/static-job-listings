@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --color-primary: hsl(180, 29%, 50%); /*Desaturated Dark Cyan */
+  --color-neutral-1:hsl(180, 52%, 96%); /*Light Grayish Cyan (Background)*/
+  --color-neutral-2:hsl(180, 31%, 95%); /*Light Grayish Cyan (Filter Tablets)*/ 
+  --color-neutral-3: hsl(180, 8%, 52%); /*Dark Grayish Cyan*/
+  --color-neutral-4: hsl(180, 14%, 20%); /*Very Dark Grayish Cyan*/
+  --margin-body-large: 25rem;
+  --margin-body-medium: 15rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /*make 1rem = 10px so that calculations are easier */
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.5rem; /* 18px; */
+  color: var(--color-neutral-4);
 }
