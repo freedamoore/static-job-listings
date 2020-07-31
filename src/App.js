@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 
 import data from './data/data.json';
 
@@ -28,6 +29,7 @@ function App() {
 
   return (
     < div className="App" >
+      <Header />
       {
         filteredjobs.map(item => (
           <div key={item.id}>

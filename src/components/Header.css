@@ -1,0 +1,13 @@
+.header{
+    height: 100px;
+    background-color: var(--color-primary);
+    background-image: url("../assets/bg-header-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        background-image: url("../assets/bg-header-mobile.svg");
+    }
+}
