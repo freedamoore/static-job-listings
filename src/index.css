@@ -4,8 +4,6 @@
   --color-neutral-2:hsl(180, 31%, 95%); /*Light Grayish Cyan (Filter Tablets)*/ 
   --color-neutral-3: hsl(180, 8%, 52%); /*Dark Grayish Cyan*/
   --color-neutral-4: hsl(180, 14%, 20%); /*Very Dark Grayish Cyan*/
-  --margin-body-large: 25rem;
-  --margin-body-medium: 15rem;
 }
 
 
@@ -26,5 +24,6 @@ html{
 body {
   font-family: 'Spartan', sans-serif;
   font-size: 1.5rem; /* 15px; */
+  background-color: var(--color-neutral-1);
   color: var(--color-neutral-4);
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Card from './components/Card';
 import './App.css';
 import data from './data/data.json';
 
@@ -24,24 +25,18 @@ function App() {
     filteredjobs = data;
   }
 
-  console.log(filterList);
-  console.log(filteredjobs);
+  // console.log(filterList);
+  // console.log(filteredjobs);
 
   return (
     < div className="App" >
       <Header />
       {
         filteredjobs.map(item => (
-          <div key={item.id}>
-            <h3> {item.company} </h3>
-            <ol>{item.languages.map((lang, i) => (<li key={i} onClick={addToFilter} style={{ color: 'blue' }}>{lang}</li>))}</ol>
-            <ul>{item.tools.map((tool, i) => (<li key={i} onClick={addToFilter}>{tool}</li>))}</ul>
-          </div>
+          <Card key={item.id} jobDetails={item} addToFilter={addToFilter} />
         ))
       }
-
       <Footer />
-
     </div >
   );
 }
