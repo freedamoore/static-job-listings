@@ -1,0 +1,16 @@
+.filter-items{
+        display: flex;
+        flex-wrap: wrap;
+}
+.filter-item{
+    background-color: var(--color-neutral-1);
+    border-radius: 5px;
+    color: var(--color-primary);
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.filter-item:not(:last-child){
+    margin-right: 10px;
+}

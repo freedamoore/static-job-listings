@@ -1,6 +1,7 @@
 import React from 'react';
 import testlogo from '../assets/manage.svg';
 import './Card.css';
+import FilterItem from './FilterItem';
 
 const Card = ({ jobDetails, addToFilter }) => {
     const {
@@ -43,7 +44,7 @@ const Card = ({ jobDetails, addToFilter }) => {
                     </div>
                 </div>
                 <div className="job-card__filters">
-                    <span>{languages} - {level} - {role} - {tools} </span>
+                    <FilterItem languages={languages} level={level} role= {role} tools={tools} />
                 </div>
             </div>
         </div>

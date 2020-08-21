@@ -57,6 +57,7 @@ job-card__left-border{
 
 .job-card__details{
     margin-right: auto;
+    /* min-width: 50%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -81,13 +82,17 @@ job-card__left-border{
     font-size: 1.5rem;
 }
 
+.job-card__filters{
+    align-self: center;
+}
+
 @media only screen and (max-width: 1200px) {
     .job-card{
        margin: 2rem 5rem;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .job-card{
        margin: 4rem 1rem;
     }
@@ -101,6 +106,7 @@ job-card__left-border{
         border-top: 1px solid var(--color-neutral-3);
         padding-top: 1rem;
         margin-top: 1rem;
+        
     }
 
     .job-card__logo {
