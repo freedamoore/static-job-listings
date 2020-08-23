@@ -17,7 +17,6 @@
 .job-card__content{
     background-color: white;
     display: flex;
-    /* align-items: center; */
     padding: 2.5rem 2.5rem 2.5rem 2rem;
 }
 
@@ -94,7 +93,7 @@ job-card__left-border{
 
 @media only screen and (max-width: 800px) {
     .job-card{
-       margin: 4rem 1rem;
+       margin: 4rem 5rem;
     }
 
     .job-card__content{
@@ -106,7 +105,7 @@ job-card__left-border{
         border-top: 1px solid var(--color-neutral-3);
         padding-top: 1rem;
         margin-top: 1rem;
-        
+        align-self: start;
     }
 
     .job-card__logo {
@@ -118,5 +117,11 @@ job-card__left-border{
         width: 50px;
         position: absolute;
         top: -50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .job-card{
+       margin: 4rem 3rem;
     }
 }
