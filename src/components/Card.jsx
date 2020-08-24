@@ -1,5 +1,4 @@
 import React from 'react';
-import testlogo from '../assets/manage.svg';
 import './Card.css';
 import FilterItem from './FilterItem';
 
@@ -22,7 +21,7 @@ const Card = ({ jobDetails, addToFilter }) => {
         <div className="job-card">
             <div className="job-card__content">
                 <div className="job-card__logo">
-                    <img src={logo} alt="Company Logo" />
+                    <img src={logo}  alt="Company Logo" />
                 </div>
                 <div className="job-card__details">
                     <div className="job-card__company">

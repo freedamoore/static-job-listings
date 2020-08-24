@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FilterBox from './components/FilterBox';
 import Card from './components/Card';
 import './App.css';
 import data from './data/data.json';
+
 
 function App() {
 
@@ -31,6 +33,7 @@ function App() {
   return (
     < div className="App" >
       <Header />
+      <FilterBox />
       {
         filteredjobs.map(item => (
           <Card key={item.id} jobDetails={item} addToFilter={addToFilter} />
