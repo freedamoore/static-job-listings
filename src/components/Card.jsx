@@ -22,7 +22,7 @@ const Card = ({ jobDetails, addToFilter }) => {
         <div className="job-card">
             <div className="job-card__content">
                 <div className="job-card__logo">
-                    <img src={testlogo} alt="Company Logo" />
+                    <img src={logo} alt="Company Logo" />
                 </div>
                 <div className="job-card__details">
                     <div className="job-card__company">
@@ -44,7 +44,7 @@ const Card = ({ jobDetails, addToFilter }) => {
                     </div>
                 </div>
                 <div className="job-card__filters">
-                    <FilterItem languages={languages} level={level} role= {role} tools={tools} />
+                    <FilterItem languages={languages} level={level} role= {role} tools={tools} addToFilter={addToFilter}/>
                 </div>
             </div>
         </div>

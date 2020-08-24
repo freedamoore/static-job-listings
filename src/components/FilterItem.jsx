@@ -1,22 +1,22 @@
 import React from 'react';
 import './FilterItem.css';
 
-const FilterItem = ({languages, level, role, tools}) => {
+const FilterItem = ({languages, level, role, tools, addToFilter}) => {
     return (
         <div className="filter-items">
             {
                 languages &&
                 languages.map((language, i) => 
-                    <span key={i} className="filter-item">{language}</span> 
+                    <span key={i} className="filter-item" onClick={addToFilter}>{language}</span> 
                 )
             }
             
-            <span className="filter-item">{level}</span>
-            <span className="filter-item">{role}</span>
+            <span className="filter-item" onClick={addToFilter}>{level}</span>
+            <span className="filter-item" onClick={addToFilter}>{role}</span>
             {
                 tools &&
                 tools.map((tool, i) => 
-                    <span className="filter-item">{tool}</span>
+                    <span key={i} className="filter-item" onClick={addToFilter}>{tool}</span>
                 )
                 
             }
