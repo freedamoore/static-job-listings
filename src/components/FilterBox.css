@@ -39,6 +39,11 @@
     border-radius: 0 5px 5px 0;
 }
 
+.filter-box__item-remove:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
 .filter-box__clear-btn{
     border: none;
     color: var(--color-neutral-3);

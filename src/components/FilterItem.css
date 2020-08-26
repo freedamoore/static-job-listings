@@ -11,6 +11,11 @@
     margin: 10px 0;
 }
 
+.filter-item:hover{
+   opacity: .8;
+   cursor: pointer;
+}
+
 .filter-item:not(:last-child){
     margin-right: 10px;
 }
