@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static-job-listings/static/css/main.87853c39.chunk.css",
+    "main.js": "/static-job-listings/static/js/main.be172ad9.chunk.js",
+    "main.js.map": "/static-job-listings/static/js/main.be172ad9.chunk.js.map",
+    "runtime-main.js": "/static-job-listings/static/js/runtime-main.94596790.js",
+    "runtime-main.js.map": "/static-job-listings/static/js/runtime-main.94596790.js.map",
+    "static/js/2.672772a8.chunk.js": "/static-job-listings/static/js/2.672772a8.chunk.js",
+    "static/js/2.672772a8.chunk.js.map": "/static-job-listings/static/js/2.672772a8.chunk.js.map",
+    "index.html": "/static-job-listings/index.html",
+    "precache-manifest.0723e3493c205c95e9c8f637d75b3bdf.js": "/static-job-listings/precache-manifest.0723e3493c205c95e9c8f637d75b3bdf.js",
+    "service-worker.js": "/static-job-listings/service-worker.js",
+    "static/css/main.87853c39.chunk.css.map": "/static-job-listings/static/css/main.87853c39.chunk.css.map",
+    "static/js/2.672772a8.chunk.js.LICENSE.txt": "/static-job-listings/static/js/2.672772a8.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/static-job-listings/static/media/bg-header-mobile.6b5ff5a0.svg",
+    "static/media/icon-remove.svg": "/static-job-listings/static/media/icon-remove.ae67c678.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94596790.js",
+    "static/js/2.672772a8.chunk.js",
+    "static/css/main.87853c39.chunk.css",
+    "static/js/main.be172ad9.chunk.js"
+  ]
+}
