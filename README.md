@@ -1,6 +1,6 @@
 # This is my solution to the below Frontend Mentor challenge
 
-*WORK IN PROGRESS*
+*Implemented Using React*
 
 ---
 
